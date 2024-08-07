@@ -1,8 +1,17 @@
 #![allow(dead_code)]
+#![allow(unused_variables)]
 mod guessing_game;
 mod variables;
 mod functions;
 mod ownership;
+mod structs;
+mod enums;
+mod matchs;
+mod if_let;
+mod vector;
+mod strings;
+mod hashmap;
+mod errors_handling;
 fn main(){
-   ownership::ref_and_borrowing();
+   errors_handling::main();
 }
